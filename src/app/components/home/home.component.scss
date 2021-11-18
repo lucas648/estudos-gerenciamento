@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &__buttons{
+   &--button{
+    padding: 8px; 
+    border-radius: 8px;
+    margin: 16px;
+   }     
+  }
+}

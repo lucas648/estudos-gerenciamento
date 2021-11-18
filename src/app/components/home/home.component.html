@@ -1,5 +1,7 @@
-<div>
+<div class="container">
   <h1>Counter: {{(counter$ | async).counter}}</h1>
-  <button (click)="decrement()">Decrement</button>
-  <button (click)="increment()">Increment</button>
+  <div class="container__buttons">
+    <button class="container__buttons--button" (click)="decrement()">Decrement</button>
+    <button class="container__buttons--button" (click)="increment()">Increment</button>
+  </div>
 </div>
