@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   public counter$ : Observable<any>;
 
   constructor( 
-    private store: Store<{ counter: number }>
+    private store: Store<any>
   ) {    
     this.counter$ = this.store.pipe(
       select('counterReducer')
